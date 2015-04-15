@@ -1,0 +1,2 @@
+# Simple open sublime text
+alias subl="open -a /Applications/Sublime\ Text.app"
