@@ -12,6 +12,10 @@ Steps
 	- CodeRunner
 	- Slack
 	- Evernote
+- Install Node version manager
+	- Follow instructions & add to .extra dotfile
+
+- Add Git credentials to .extra dotfile
 - Run dotfiles:
 
 # Rob Huzzey dotfiles
