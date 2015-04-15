@@ -3,6 +3,9 @@ Steps
 - Update OSX
 - Install XCode
 - Install Sublime Text 3
+- Install Sublime Package Manager
+	- Sublimerge
+	- VCS Gutter
 - Run dotfiles:
 
 # Rob Huzzey dotfiles
