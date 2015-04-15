@@ -4,8 +4,9 @@ Steps
 - Install XCode
 - Install Sublime Text 3
 - Install Sublime Package Manager
-	- Sublimerge
+	- Sublimerge pro
 	- VCS Gutter
+	- Javascript snippets
 - App Store
 	- Caffeine
 	- CodeRunner
