@@ -1,2 +1,23 @@
-# Simple open sublime text
+echo "----------------------------------------------"
+echo "****************** ALIASES  ******************"
+echo "----------------------------------------------"
+
+echo "subl: open sublime text"
 alias subl="open -a /Applications/Sublime\ Text.app"
+
+# Folder traversal shortcuts
+
+echo "d: Navigate to desktop"
+alias d="cd ~/Desktop/"
+
+echo "b: open browser"
+alias b="open http://www.google.co.uk"
+
+echo "..: move up a directory"
+alias ..="cd ../"
+
+echo "c: clear terminal"
+alias c="clear"
+
+echo "----------------------------------------------"
+echo "----------------------------------------------"

@@ -3,7 +3,7 @@
 # * ~/.extra can be used for other settings you don’t want to commit.
 for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && source "$file"
-	echo "loaded file: $file"
+	# echo "loaded file: $file"
 done
 unset file
 
