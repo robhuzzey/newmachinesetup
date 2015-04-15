@@ -2,10 +2,11 @@ echo "----------------------------------------------"
 echo "****************** ALIASES  ******************"
 echo "----------------------------------------------"
 
+echo "server: start a simple http server"
+alias server="python -m SimpleHTTPServer $1"
+
 echo "subl: open sublime text"
 alias subl="open -a /Applications/Sublime\ Text.app"
-
-# Folder traversal shortcuts
 
 echo "d: Navigate to desktop"
 alias d="cd ~/Desktop/"

@@ -15,3 +15,6 @@ which grunt > /dev/null && eval "$(grunt --completion=bash)"
 
 # If possible, add bash completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
+
+# Git auto completion if we have it
+[ -f ~/.git-completion ] && source ~/.git-completion
