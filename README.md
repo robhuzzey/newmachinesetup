@@ -6,6 +6,11 @@ Steps
 - Install Sublime Package Manager
 	- Sublimerge
 	- VCS Gutter
+- App Store
+	- Caffeine
+	- CodeRunner
+	- Slack
+	- Evernote
 - Run dotfiles:
 
 # Rob Huzzey dotfiles
