@@ -21,6 +21,7 @@ Steps
 	- Follow instructions & add to .extra dotfile
 - Install global node modules
 	- npm install -g grunt-cli
+	- npm install -g mocha
 
 - Add Git credentials to .extra dotfile
 - Run dotfiles:
