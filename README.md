@@ -4,9 +4,13 @@ Steps
 - Install XCode
 - Install Sublime Text 3
 - Install Sublime Package Manager
-	- Sublimerge pro
-	- VCS Gutter
-	- Javascript snippets
+	- Sublimerge pro (vcs tool)
+	- VCS Gutter (shows changes to files in gutter)
+	- Javascript snippets (nice js shortcuts)
+	- JSFormat (JS Formatting plugin)
+	- JSHint (JS Hinting)
+	- JavaScriptNext (Better JS Syntax highlighter)
+	- SideBarEnhancements (File handling enhancements in the sidebar)
 - App Store
 	- Caffeine
 	- CodeRunner
