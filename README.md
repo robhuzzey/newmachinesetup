@@ -11,6 +11,7 @@ Steps
 	- JSHint (JS Hinting)
 	- JavaScriptNext (Better JS Syntax highlighter)
 	- SideBarEnhancements (File handling enhancements in the sidebar)
+- Install Sequel Pro
 - App Store
 	- Caffeine
 	- CodeRunner
@@ -18,6 +19,8 @@ Steps
 	- Evernote
 - Install Node version manager
 	- Follow instructions & add to .extra dotfile
+- Install global node modules
+	- npm install -g grunt-cli
 
 - Add Git credentials to .extra dotfile
 - Run dotfiles:
