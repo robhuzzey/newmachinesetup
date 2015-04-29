@@ -11,6 +11,7 @@ Steps
 	- JSHint (JS Hinting)
 	- JavaScriptNext (Better JS Syntax highlighter)
 	- SideBarEnhancements (File handling enhancements in the sidebar)
+	- Indent XML
 - Install Sequel Pro
 - App Store
 	- Caffeine
