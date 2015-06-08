@@ -18,3 +18,7 @@ which grunt > /dev/null && eval "$(grunt --completion=bash)"
 
 # Git auto completion if we have it
 [ -f ~/.git-completion ] && source ~/.git-completion
+
+# Run RVM setup
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
