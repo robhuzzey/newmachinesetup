@@ -20,6 +20,8 @@ Steps
 	- Evernote
 - Install Node version manager
 	- Follow instructions & add to .extra dotfile
+- Install Ruby Version Manager
+	- https://rvm.io/
 - Install global node modules
 	- npm install -g grunt-cli
 	- npm install -g mocha
