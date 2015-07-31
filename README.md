@@ -12,6 +12,7 @@ Steps
 	- JavaScriptNext (Better JS Syntax highlighter)
 	- SideBarEnhancements (File handling enhancements in the sidebar)
 	- Indent XML
+	- Babel (ES6+ & JSX enhancements)
 - Install Sequel Pro
 - App Store
 	- Caffeine
