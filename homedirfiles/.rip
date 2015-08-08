@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+echo "Please enter youtube id: $id"
+read id
+
+title=""
+echo "Please enter song title: $title"
+read title
+[ -n "$newtitle" ] && title=$newtitle
+
+artist=""
+echo "Please enter song artist: $artist"
+read artist
+[ -n "$newartist" ] && artist=$newartist
+
+genre=""
+echo "Please enter song genre: $genre"
+read genre
+[ -n "$newgenre" ] && genre=$newgenre
+
+album=""
+echo "Please enter song album: $album"
+read album
+[ -n "$newalbum" ] && album=$newalbum
+
+youtube-dl https://www.youtube.com/watch?v=$id --extract-audio --audio-format mp3 --postprocessor-args "-metadata title='$title' -metadata artist='$artist' -metadata album='$album' -metadata genre='$genre'"

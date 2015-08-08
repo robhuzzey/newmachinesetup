@@ -20,5 +20,8 @@ alias ..="cd ../"
 echo "c: clear terminal"
 alias c="clear"
 
+echo "yt-rip: Rip a song from youtube to MP3"
+alias yt-rip=~/.rip
+
 echo "----------------------------------------------"
 echo "----------------------------------------------"
