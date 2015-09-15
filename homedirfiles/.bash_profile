@@ -18,3 +18,6 @@ which grunt > /dev/null && eval "$(grunt --completion=bash)"
 
 # Git auto completion if we have it
 [ -f ~/.git-completion ] && source ~/.git-completion
+
+# set node path for Revolver#
+export NODE_PATH=/Users/nicki.lever/Desktop/workspace/revolver:$PATH
