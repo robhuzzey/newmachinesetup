@@ -18,6 +18,14 @@ which grunt > /dev/null && eval "$(grunt --completion=bash)"
 
 # Git auto completion if we have it
 [ -f ~/.git-completion ] && source ~/.git-completion
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# MacPorts Installer addition on 2015-06-16_at_15:34:27: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
 
 # set node path for Revolver#
 export NODE_PATH=/Users/nicki.lever/Desktop/workspace/revolver:$PATH
+
+export GHUSER=nickine
+export GHPASS=8ed4ddac34f96add1105d0ada615f56dc7c6f885
