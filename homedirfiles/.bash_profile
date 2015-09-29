@@ -26,6 +26,3 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 # set node path for Revolver#
 export NODE_PATH=/Users/nicki.lever/Desktop/workspace/revolver:$PATH
-
-export GHUSER=nickine
-export GHPASS=8ed4ddac34f96add1105d0ada615f56dc7c6f885
