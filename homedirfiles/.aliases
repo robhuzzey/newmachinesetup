@@ -23,5 +23,11 @@ alias c="clear"
 echo "yt-rip: Rip a song from youtube to MP3"
 alias yt-rip=~/.rip
 
+echo "mountvm: Mount the local VM for work"
+alias mountvm="~/.mountvm"
+
+echo "unmountvm: Unmount the local VM for work"
+alias unmountvm="~/.unmountvm"
+
 echo "----------------------------------------------"
 echo "----------------------------------------------"

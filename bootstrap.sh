@@ -4,6 +4,8 @@ function doIt() {
 	mkdir ~/.vim;
 	rsync --exclude ".git/" --exclude ".DS_Store" -av --no-perms ./homedirfiles/ ~
 	chmod +x ~/.rip # special case, this file needs permissions
+  chmod +x ~/.mountvm # special case, this file needs permissions
+  chmod +x ~/.unmountvm # special case, this file needs permissions
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt

@@ -16,3 +16,6 @@ export GREP_OPTIONS="--color=auto"
 
 # Colorize the CLI (default colors)
 export CLICOLOR=1
+
+# LocalVM Address
+export LOCALVM_DIR="/Volumes/LocalVM/"
