@@ -2,3 +2,4 @@
 ~/.unmountvm # First unmount before trying to mount
 mkdir "$LOCALVM_DIR"
 sshfs hxdeveloper@10.200.0.101:abbeyroad/src "$LOCALVM_DIR" -ovolname=LocalVM;
+cd "$LOCALVM_DIR";
