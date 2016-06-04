@@ -23,6 +23,9 @@ alias c="clear"
 echo "yt-rip: Rip a song from youtube to MP3"
 alias yt-rip=~/.rip
 
+echo "mp3towav: Convert MP3 to wav (can be batch process on whole folder"
+alias mp3towav=~/.mp3towav
+
 echo "decodemp3: Rip a song from youtube to MP3"
 alias decodemp3="lame --decode"
 

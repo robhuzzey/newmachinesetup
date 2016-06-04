@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+for i in *.mp3 ; do
+  name=`basename "$i" .mp3`
+  echo $name
+  lame --decode "$name.mp3" "$name.wav"
+done
