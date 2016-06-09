@@ -1,25 +1,73 @@
 #!/usr/bin/env bash
+
+audioFormat=""
+PS3='Which format did you want to extract to? '
+options=("MP3" "WAV")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "MP3")
+            audioFormat="mp3"
+            break
+            ;;
+        "WAV")
+            audioFormat="wav"
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done
+
+# PS3='Please enter your choice: '
+# options=("Option 1" "Option 2" "Option 3" "Quit")
+# select opt in "${options[@]}"
+# do
+#     case $opt in
+#         "Option 1")
+#             echo "you chose choice 1"
+#             ;;
+#         "Option 2")
+#             echo "you chose choice 2"
+#             ;;
+#         "Option 3")
+#             echo "you chose choice 3"
+#             ;;
+#         "Quit")
+#             break
+#             ;;
+#         *) echo invalid option;;
+#     esac
+# done
+
+echo "Audio format is $audioFormat"
+
 echo "Please enter youtube id: $id"
 read id
 
-title=""
-echo "Please enter song title: $title"
-read title
-[ -n "$newtitle" ] && title=$newtitle
+if [ "$audioFormat" -eq "mp3" ];
+then
+  title=""
+  echo "Please enter song title: $title"
+  read title
+  [ -n "$newtitle" ] && title=$newtitle
 
-artist=""
-echo "Please enter song artist: $artist"
-read artist
-[ -n "$newartist" ] && artist=$newartist
+  artist=""
+  echo "Please enter song artist: $artist"
+  read artist
+  [ -n "$newartist" ] && artist=$newartist
 
-genre=""
-echo "Please enter song genre: $genre"
-read genre
-[ -n "$newgenre" ] && genre=$newgenre
+  genre=""
+  echo "Please enter song genre: $genre"
+  read genre
+  [ -n "$newgenre" ] && genre=$newgenre
 
-album=""
-echo "Please enter song album: $album"
-read album
-[ -n "$newalbum" ] && album=$newalbum
+  album=""
+  echo "Please enter song album: $album"
+  read album
+  [ -n "$newalbum" ] && album=$newalbum
 
-youtube-dl https://www.youtube.com/watch?v=$id --extract-audio --audio-format mp3 --postprocessor-args "-metadata title='$title' -metadata artist='$artist' -metadata album='$album' -metadata genre='$genre'"
+  youtube-dl https://www.youtube.com/watch?v=$id --extract-audio --audio-format mp3 --postprocessor-args "-metadata title='$title' -metadata artist='$artist' -metadata album='$album' -metadata genre='$genre'"
+else
+  youtube-dl https://www.youtube.com/watch?v=$id --extract-audio --audio-format wav
+fi
+
