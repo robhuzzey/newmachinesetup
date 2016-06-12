@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 ~/.unmountvm # First unmount before trying to mount
 mkdir "$LOCALVM_DIR"
-sshfs hxdeveloper@10.200.0.101:abbeyroad/src "$LOCALVM_DIR" -ovolname=LocalVM;
+sshfs hxdeveloper@"$LOCALVM_IP":abbeyroad/src "$LOCALVM_DIR" -ovolname=LocalVM;

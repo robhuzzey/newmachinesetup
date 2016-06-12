@@ -19,3 +19,4 @@ export CLICOLOR=1
 
 # LocalVM Address
 export LOCALVM_DIR="/Volumes/LocalVM/"
+export LOCALVM_IP="10.200.0.102"
