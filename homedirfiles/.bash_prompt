@@ -44,7 +44,11 @@ export BOLD
 export RESET
 
 function parse_git_dirty() {
-	[[ $(git status 2> /dev/null | tail -n1) != *"working directory clean"* ]] && echo "*"
+	if [[ $(pwd) == *"LocalVM"* ]];then
+		echo " - Check VM for dirty status"
+	else
+  	[[ $(git status 2> /dev/null | tail -n1) != *"working directory clean"* ]] && echo "*"
+  fi
 }
 
 function parse_git_branch() {
